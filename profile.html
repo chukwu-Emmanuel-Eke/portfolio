@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PORTFOLIO</title>
+    <style>
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    width: 100vw;
+    height: 100vh;
+    background: white;
+    overflow-x: hidden;
+}
+.header{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(3, 3, 32, 0.938);
+    gap: 3rem;
+    width: 100%;
+    min-height: 4rem;
+    flex-wrap: wrap;
+}
+.header a{
+    text-decoration: none;
+    color:  whitesmoke;
+}
+.header button{
+    background: rgba(3, 3, 32, 0.938);
+    color:aqua;
+    width: 80px;
+    border: 1.5px solid rgb(9, 209, 209);
+    min-height: 1.5rem;
+}
+.centerAll{
+    display: flex;
+    gap: 10rem;
+}
+.centerLeft{
+    margin: 3rem 5rem; 
+}
+h4{
+    color:aqua;
+}
+#name{
+    color: rgba(3, 3, 32, 0.938);
+}
+#build{
+    color: rgba(3, 3, 32, 0.938);
+} 
+.fullstack{
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    margin: 3rem 0rem;
+    color:rgba(3, 3, 32, 0.938);
+    
+}
+
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <a href="#">About</a>
+            <a href="#">Experience</a>
+            <a href="#">Work</a>
+            <a href="#">Contact</a>
+            <button>Resume</button>
+        </div>
+        <div class="centerAll">
+            <div class="centerLeft">
+                <h4>Hi, My name is</h4>
+                <h2 id="name">Chukwu Emmanuel Eke</h2>
+                <h2 id="build">I build things for the web.</h2>
+                <div class="fullstack">
+                    <h3>I'm a Fullstack Developer Specializing in building (and occassionally </h3>
+                    <h3>designing) exceptional digital experiences, Currently, I'm focused on </h3>
+                    <h3>building accessible, responsive and human-centered products</h3>
+                </div>
+            </div>
+            <div class="centerRight">
+                <img src="pics-cut1.jpg">
+            </div>
+        </div>
+    </div>
+  <script>
+
+  </script>  
+</body>
+</html>
